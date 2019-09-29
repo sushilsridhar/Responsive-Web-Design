@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <style>
+        
+            body {
+                background-color: #a9d7d1;
+            }
+            
+            h1 {
+                margin: 50px auto 20px auto;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: 400;
+            }
+        
+            #container {
+                display: block;
+                margin: 0px auto;
+                background-color: white;
+                border-radius: 5px;
+                width: 75%;
+                max-width: 900px;
+                padding: 15px;
+            }
+
+            #description {
+                text-align: center;
+                margin: 0px auto;
+                padding: 15px;
+            }
+
+            .rowTab {
+                display: block;
+                padding: 10px;
+                text-align: center;
+            }
+            .labels {
+                display: inline-block;
+                width: 40%;
+                text-align: right;
+                padding: 10px;
+            }
+            .righTab {
+                display: inline-block;
+                width: 48%;
+                text-align: left;
+                
+            }
+        
+            #submit {
+                display: block;
+                margin: 0px auto;
+                background-color: lightskyblue;
+                text-decoration-color: white;
+                border-radius: 5px;
+                height: 40px;
+                width: 80px;
+                font-size: 15px;
+            }
+
+            .input-field {
+                width: 200px;
+                height: 20px;
+            }
+
+            #comments {
+                padding-top: 10px;
+            }
+
+            @media screen and (max-width: 833px) {
+                .input-field {
+                    width: 80%;
+                }
+            }
+
+            @media screen and (max-width: 520px) {
+                .input-field {
+                    width: 100%;
+                }
+            }
+
+            @media screen and (max-width: 520px) {
+                .labels {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+            
+
+        </style>
+    </head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <div id="container">
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+        <form id="survey-form">
+                <div class="rowTab">
+                    <div class="labels">
+                        <label id="name-label" for="name">* Name: </label>
+                    </div>
+                    <div class="righTab">
+                        <input type="text" id="name" placeholder="enter your name" class="input-field" required/>
+                    </div>
+                </div>
+        
+                <div class="rowTab">
+                        <div class="labels">
+                            <label id="email-label" for="email">* Email:</label> 
+                        </div>
+                        <div class="righTab">
+                            <input type="email" id="email" placeholder="email" class="input-field" required/>
+                        </div>
+                </div>
+               
+                <div class="rowTab">
+                        <div class="labels">
+                            <label id="number-label" for="number">* Age:</label>
+                        </div>
+                        <div class="righTab">
+                            <input type="number" id="number" min=10 max=50  placeholder="number" class="input-field" />
+                        </div>
+                </div>
+                
+                <div class="rowTab">
+                        <div class="labels">
+                            <label>Which option best describes your current role?</label>
+                        </div>
+                        <div class="righTab">
+                            <select name="drop" id="dropdown">
+                                <option value="Student">Student</option>
+                                <option value="job">Full time job</option>
+                            </select>
+                        </div>
+                </div>
+                
+        
+                <div class="rowTab">
+                        <div class="labels">
+                            <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>    
+                        </div>
+                        <div class="righTab">
+                            <ul style="list-style:none; padding-left:0px;">
+                                <li>
+                                    <input type="radio" name="rad" value="Definitely"/> Definitely
+                                </li>
+                                <li>
+                                    <input type="radio" name="rad" value="maybe" /> Maybe
+                                </li>
+                                <li>
+                                    <input type="radio" name="rad" value="no" /> Not sure
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="rowTab">
+                        <div class="labels">
+                            <label>Things that should be improved in the future
+                                        (Check all that apply):</label>
+                        </div>
+                        <div class="righTab">
+                            <ul style="list-style:none; padding-left:0px;">
+                                <li>
+                                    <input type="checkbox" name="Frontend" value="Frontend"/> Frontend Projects
+                                </li>
+                                <li>
+                                     <input type="checkbox" name="Backend" value="Backend"/> Backend Projects
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="rowTab">
+                        <div class="labels">
+                            <label>Any Comments or Suggestions?</label>
+                        </div>
+                        <div class="righTab">
+                            <textarea id="comments" placeholder="Enter your comment here"></textarea>
+                        </div>
+                </div>
+
+                <button type="submit" id="submit">Submit</button>
+            </form>
+    </div>
+</body>
+</html>
