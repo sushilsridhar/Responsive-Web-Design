@@ -1,0 +1,26 @@
+#header {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+#header #header-img  {
+    width: 100px;
+    height: auto;
+    margin-right: auto;
+}
+
+#header #nav-bar {
+    width: 500px;
+    display: flex;
+}
+
+#header #nav-bar a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(65, 59, 59);
+    width: 300px;
+}

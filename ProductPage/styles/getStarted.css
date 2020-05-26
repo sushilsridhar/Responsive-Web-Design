@@ -1,0 +1,21 @@
+.get-started {
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+}
+
+.get-started .text {
+    text-align: center;
+}
+
+.get-started #form{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-started #email {
+    
+}
+
+.get-started #submit {
+
+}
