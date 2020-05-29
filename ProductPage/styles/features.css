@@ -1,4 +1,25 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.features .item {
+    display: flex;
+    flex-direction: row;
+}
+
 .features .icon img {
     width: 100px;
     height: 100px;
+}
+.features .item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features .title {
+    font-size: x-large;
 }

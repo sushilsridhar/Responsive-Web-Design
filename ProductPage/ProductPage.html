@@ -1,51 +1,113 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles/header.css" >
+        <link rel="stylesheet" type="text/css" href="styles/container.css" >
         <link rel="stylesheet" type="text/css" href="styles/getStarted.css" >
         <link rel="stylesheet" type="text/css" href="styles/features.css" >
+        <link rel="stylesheet" type="text/css" href="styles/howItWorks.css" >
+        <link rel="stylesheet" type="text/css" href="styles/pricing.css" >
+        <link rel="stylesheet" type="text/css" href="styles/footer.css" >
     </head>
     <body>
         <header id="header">
-            <img id="header-img" src="images/eco_buddy.jpeg"/>
+            <div class="logo">
+                <img id="logo-img" src="images/eco_buddy.jpeg"/>
+            </div>
 
             <nav id="nav-bar">
-                <a href="" class="nav-link">Features</a>
-                <a href="" class="nav-link">How it works</a>
-                <a href="" class="nav-link">Pricing</a>
+                <div class="nav-item">
+                    <a href="" class="nav-link">Features</a>
+                </div>
+                <div class="nav-item">
+                    <a href="" class="nav-link">How it works</a>
+                </div>
+                <div class="nav-item">
+                    <a href="" class="nav-link">Pricing</a>
+                </div>
             </nav>
         </header>
 
-        <div class="get-started">
-            <p class="text">Handcrafted, plastic free masterpieces</p>
-            <form id="form">
-                <input type="email" id="email" placeholder="Enter your email address" />
-                <button id="submit">Get Started</submit>
-            </form>
-        </div>
+        <div class="container">
+            <section class="get-started">
+                <p class="text">Handcrafted, plastic free masterpieces</p>
+                <form id="form">
+                    <input type="email" id="email" placeholder="Enter your email address" />
+                    <button id="submit">Get Started</submit>
+                </form>
+            </section>
 
-        <div class="features">
-            <div class="item">
-                <div class="icon">
-                    <img src="images/no_plastic.jpg" alt="icon"/>
+            <section class="features">
+                <div class="item">
+                    <div class="icon">
+                        <img src="images/no_plastic.jpg" alt="icon"/>
+                    </div>
+                    <div class="item-content">
+                        <span class="title">Plastic free Materials</span>
+                        <span class="description">Create a truly healthy and sustainable world, free from toxic consequences of plastic.</span>
+                    </div>
                 </div>
-                <p class="title">Plastic free Materials</p>
-                <p class="description">Create a truly healthy and sustainable world, free from toxic consequences of plastic.</p>
-            </div>
-            <div class="item">
-                <div class="icon">
-                    <img src="images/softness.png" alt="icon"/>
+                <div class="item">
+                    <div class="icon">
+                        <img src="images/softness.png" alt="icon"/>
+                    </div>
+                    <div class="item-content">
+                        <span class="title">Bamboo Bristles</span>
+                        <span class="description">Softest bamboo bristles, Dentist recommended for sensitive gums, Organic and Sustainable Bamboo handle.</span>
+                    </div>
                 </div>
-                <p class="title">Bamboo Bristles</p>
-                <p class="description">Softest bamboo bristles, Dentist recommended for sensitive gums, Organic and Sustainable Bamboo handle.</p>
-            </div>
-            <div class="item">
-                <div class="icon">
-                    <img src="images/quality_assurance.jpg" alt="icon"/>
+                <div class="item">
+                    <div class="icon">
+                        <img src="images/quality_assurance.jpg" alt="icon"/>
+                    </div>
+                    <div class="item-content">
+                        <span class="title">Quality Assurance</span>
+                        <span class="description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the durability of the brush and it's brittles.</span>
+                    </div>
                 </div>
-                <p class="title">Quality Assurance</p>
-                <p class="description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the durability of the brush and it's brittles.</p>
-            </div>
-            
+            </section>
+
+            <section class="how-it-works">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Lc_dlVrg5M" frameborder="0" allowfullscreen>
+                </iframe>
+            </section>
+
+            <section class="pricing">
+                <div class="box">
+                    <span class="title">Bamboo Fibre Bristles</span>
+                    <span class="price">&#8377; 99</span>
+                    <span class="description">Dentist recommended for sensitive gums.</span>
+                    <span class="description">Organic and sustainable Bamboo handle.</span>
+                    <span class="description">Natural whitener and Anti-Bacteria.</span>
+                    <button class="select-button">Select</button>
+                </div>
+                <div class="box">
+                    <span class="title">Charcoal Infused Bristles</span>
+                    <span class="price">&#8377; 99</span>
+                    <span class="description">Dentist recommended for sensitive gums.</span>
+                    <span class="description">Natural whitening and anti-bacterial.</span>
+                    <span class="description">Best absorption and plague removing capacity</span>
+                    <button class="select-button">Select</button>
+                </div>
+                <div class="box">
+                    <span class="title">Your Travel Buddy - Toothbrush Travel case</span>
+                    <span class="price">&#8377; 249</span>
+                    <span class="description">Keep your Toothbrush safe and clean.</span>
+                    <span class="description">Protects brush from damage in transit.</span>
+                    <span class="description">Organically grown bamboo.</span>
+                    <button class="select-button">Select</button>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div>
+                    <span>Privacy</span>
+                    <span>Terms</span>
+                    <span>Contact</span>
+                </div>
+                <div>
+                    <span>Copyright 2016, Original Trombones</span>
+                </div>
+            </section>
         </div>
     </body>
 </html>

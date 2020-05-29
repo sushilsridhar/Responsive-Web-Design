@@ -1,0 +1,12 @@
+.pricing {
+    display: flex;
+    flex-direction: row;
+    max-width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.pricing .box {
+    display: flex;
+    flex-direction: column;
+    border: 5px;
+}
