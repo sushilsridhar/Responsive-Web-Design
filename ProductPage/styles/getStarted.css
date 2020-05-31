@@ -1,21 +1,39 @@
 .get-started {
-    max-width: 500px;
-    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.get-started .text {
+.get-started .get-started-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(108, 116, 110);
+    font-size: x-large;
+    font-weight: 700;
     text-align: center;
 }
 
-.get-started #form{
+.get-started .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.get-started #email {
-    
+.get-started .email {
+    padding: 5px;
+    width: 300px;
 }
 
-.get-started #submit {
+.get-started .submit {
+    margin: 15px;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+}
 
+
+@media (max-width: 500px) {
+    .get-started .email {
+        padding: 5px;
+        width: 80vw;
+    }
 }
