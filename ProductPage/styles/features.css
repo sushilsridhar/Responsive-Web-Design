@@ -1,25 +1,35 @@
 .features {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
-    margin: 0 auto 0 auto;
+    align-items: center;
 }
 
 .features .item {
     display: flex;
-    flex-direction: row;
 }
 
 .features .icon img {
     width: 100px;
     height: 100px;
+    margin: 20px;
 }
 .features .item-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50vw;
 }
 
 .features .title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(108, 116, 110);
     font-size: x-large;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.features .description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(108, 116, 110);
+    font-size: 15px;
 }
