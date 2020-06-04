@@ -1,4 +1,6 @@
 .how-it-works {
-    max-width: 60%;
-    margin: 0 auto 0 auto;
+    margin-top: 50px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
 }
