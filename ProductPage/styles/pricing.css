@@ -1,13 +1,47 @@
 .pricing {
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    max-width: 60%;
-    margin: 0 auto 0 auto;
+    justify-content: center;
 }
 
 .pricing .box {
     display: flex;
     flex-direction: column;
-    border: 5px;
+    align-items: center;
+    height: 30vw;
+    width: 40vw;
+    border: 1px solid rgb(108, 116, 110);
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.pricing .box .title {
+    background-color: #ddd;
+    padding: 15px 0 15px 0;
+    align-self: stretch;
+    font-weight: 550;
+}
+
+.pricing .box .price {
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.pricing .box ol {
+    padding: 0px;
+    margin: 10px;
+}
+
+.pricing .box ol li {
+    list-style: none;
+    padding: 6px;
+}
+
+.pricing .box .select-button {
+    margin: 15px;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
 }
