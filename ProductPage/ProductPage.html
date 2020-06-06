@@ -3,7 +3,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" type="text/css" href="styles/header.css" />
-        <link rel="stylesheet" type="text/css" href="styles/container.css" />
         <link rel="stylesheet" type="text/css" href="styles/getStarted.css" />
         <link rel="stylesheet" type="text/css" href="styles/features.css" />
         <link rel="stylesheet" type="text/css" href="styles/howItWorks.css" />
@@ -12,7 +11,7 @@
     </head>
     <body>
         <header id="header" class="header">
-            <div class="logo">
+            <div class="logo" id="header-img">
                 <img class="logo-img" src="images/eco_buddy.jpeg"/>
             </div>
 
@@ -29,95 +28,91 @@
             </nav>
         </header>
 
-        <div class="container">
-            <section class="get-started">
-                <div class="get-started-text">
-                    <p>Handcrafted, plastic free masterpieces</p>
-                </div>
-                <form id="form" class="form">
-                    <input type="email" id="email" class="email" placeholder="Enter your email address" />
-                    <button id="submit" class="submit">Get Started</submit>
-                </form>
-            </section>
+        <section class="get-started">
+            <div class="get-started-text">
+                <p>Handcrafted, plastic free masterpieces</p>
+            </div>
+            <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" class="email" placeholder="Enter your email address" />
+                <button id="submit" class="submit">Get Started</submit>
+            </form>
+        </section>
 
-            <section class="features" id="features">
-                <div class="item">
-                    <div class="icon">
-                        <img src="images/no_plastic.jpg" alt="icon"/>
-                    </div>
-                    <div class="item-content">
-                        <span class="title">Plastic free Materials</span>
-                        <span class="description">Create a truly healthy and sustainable world, free from toxic consequences of plastic.</span>
-                    </div>
+        <section class="features" id="features">
+            <div class="item">
+                <div class="icon">
+                    <img src="images/no_plastic.jpg" alt="icon"/>
                 </div>
-                <div class="item">
-                    <div class="icon">
-                        <img src="images/softness.png" alt="icon"/>
-                    </div>
-                    <div class="item-content">
-                        <span class="title">Bamboo Bristles</span>
-                        <span class="description">Softest bamboo bristles, Dentist recommended for sensitive gums, Organic and Sustainable Bamboo handle.</span>
-                    </div>
+                <div class="item-content">
+                    <span class="title">Plastic free Materials</span>
+                    <span class="description">Create a truly healthy and sustainable world, free from toxic consequences of plastic.</span>
                 </div>
-                <div class="item">
-                    <div class="icon">
-                        <img src="images/quality_assurance.jpg" alt="icon"/>
-                    </div>
-                    <div class="item-content">
-                        <span class="title">Quality Assurance</span>
-                        <span class="description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the durability of the brush and it's brittles.</span>
-                    </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <img src="images/softness.png" alt="icon"/>
                 </div>
-            </section>
+                <div class="item-content">
+                    <span class="title">Bamboo Bristles</span>
+                    <span class="description">Softest bamboo bristles, Dentist recommended for sensitive gums, Organic and Sustainable Bamboo handle.</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <img src="images/quality_assurance.jpg" alt="icon"/>
+                </div>
+                <div class="item-content">
+                    <span class="title">Quality Assurance</span>
+                    <span class="description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the durability of the brush and it's brittles.</span>
+                </div>
+            </div>
+        </section>
 
-            <section class="how-it-works" id="how-it-works">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Lc_dlVrg5M" frameborder="0" allowfullscreen>
-                </iframe>
-            </section>
+        <section class="how-it-works" id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7Lc_dlVrg5M" frameborder="0" allowfullscreen>
+            </iframe>
+        </section>
 
-            <section class="pricing" id="pricing">
-                <div class="box">
-                    <span class="title">Bamboo Fibre Bristles</span>
-                    <span class="price">&#8377; 99</span>
-                    <ol>
-                        <li>Dentist recommended for sensitive gums.</li>
-                        <li>Organic &amp; sustainable Bamboo handle.</li>
-                        <li>Natural whitener &amp; Anti-Bacteria.</li>
-                    </ol>
-                    <button class="select-button">Select</button>
-                </div>
-                <div class="box">
-                    <span class="title">Charcoal Infused Bristles</span>
-                    <span class="price">&#8377; 99</span>
-                    <ol>
-                        <li>Dentist recommended for sensitive gums.</li>
-                        <li>Natural whitening &amp; anti-bacterial properties.</li>
-                        <li>Best absorption &amp; plague removal.</li>
-                    </ol>
-                    <button class="select-button">Select</button>
-                </div>
-                <div class="box">
-                    <span class="title">Your Travel Buddy - Travel Case</span>
-                    <span class="price">&#8377; 249</span>
-                    <ol>
-                        <li>Keep your Toothbrush safe and clean durning travel.</li>
-                        <li>Protects brush from damage in transit.</li>
-                        <li>Organically grown bamboo.</li>
-                    </ol>
-                    <button class="select-button">Select</button>
-                </div>
-            </section>
+        <section class="pricing" id="pricing">
+            <div class="box">
+                <span class="title">Bamboo Fibre Bristles</span>
+                <span class="price">&#8377; 99</span>
+                <ol>
+                    <li>Dentist recommended for sensitive gums.</li>
+                    <li>Organic &amp; sustainable Bamboo handle.</li>
+                    <li>Natural whitener &amp; Anti-Bacteria.</li>
+                </ol>
+                <button class="select-button">Select</button>
+            </div>
+            <div class="box">
+                <span class="title">Charcoal Infused Bristles</span>
+                <span class="price">&#8377; 99</span>
+                <ol>
+                    <li>Dentist recommended for sensitive gums.</li>
+                    <li>Natural whitening &amp; anti-bacterial properties.</li>
+                    <li>Best absorption &amp; plague removal.</li>
+                </ol>
+                <button class="select-button">Select</button>
+            </div>
+            <div class="box">
+                <span class="title">Your Travel Buddy - Travel Case</span>
+                <span class="price">&#8377; 249</span>
+                <ol>
+                    <li>Keep your Toothbrush safe and clean durning travel.</li>
+                    <li>Protects brush from damage in transit.</li>
+                    <li>Organically grown bamboo.</li>
+                </ol>
+                <button class="select-button">Select</button>
+            </div>
+        </section>
 
-            <section class="footer">
-                <div>
-                    <span>Privacy</span>
-                    <span>Terms</span>
-                    <span>Contact</span>
-                </div>
-                <div>
-                    <span>Copyright 2016, Original Trombones</span>
-                </div>
-            </section>
-        </div>
+        <section class="footer">
+            <div class="contents">
+                <span>Privacy</span>
+                <span>Terms</span>
+                <span>Contact</span>
+            </div>
+            <span class="copyright">Copyright 2016, Original Trombones</span>
+        </section>
     </body>
 </html>

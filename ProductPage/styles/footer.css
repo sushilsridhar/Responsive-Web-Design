@@ -1,0 +1,33 @@
+
+body {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.footer {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #ddd;
+    margin: 30px auto 0 auto;
+}
+
+.footer .contents {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer .contents span { 
+    padding: 10px;
+}
+
+.footer .copyright {
+    margin-right: 10px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: flex-end;
+    color: #444;
+    font-family: 'Lato', sans-serif;
+}
