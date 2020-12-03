@@ -9,12 +9,12 @@
 <p><b>Hosted using Github Pages.</b></p>
 
 <p>Product landing page:</p>
-<p>https://sushilsridhar.github.io/Responsive-Web-Design/product-landing-page/product-landing-page.html</p>
+<p>https://sushilsridhar.github.io/responsive-web-design/product-landing-page/product-landing-page.html</p>
 
 <br />
 <p>Tribute page:</p>
-<p>https://sushilsridhar.github.io/Responsive-Web-Design/tribute-page/tribute-page.html</p>
+<p>https://sushilsridhar.github.io/responsive-web-design/tribute-page/tribute-page.html</p>
 
 <br />
 <p>Survey form:</p>
-<p>https://sushilsridhar.github.io/Responsive-Web-Design/survey-form/survey-form.html</p>
+<p>https://sushilsridhar.github.io/responsive-web-design/survey-form/survey-form.html</p>
